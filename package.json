@@ -24,7 +24,7 @@
   "scripts": {
     "start": "node .",
     "dev": "nodemon",
-    "build": "npx tsc"
+    "build": "tsc"
   },
   "keywords": [],
   "description": "Find out what you can order and eat from Zomato based on how much you have.",
