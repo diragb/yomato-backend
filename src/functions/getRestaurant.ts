@@ -26,6 +26,7 @@ const scrapeRestaurantWebsite = async (url: string): Promise<Returnable<Restaura
         }
       }
     )
+    console.log(status)
     if (status >= 400) throw new Error('Restaurant does not exist!')
     const $ = cheerio.load(html)
 
