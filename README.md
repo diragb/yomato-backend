@@ -7,8 +7,14 @@ Clone this repository to your local machine, and then install dependencies by ru
 yarn install
 ```
 
+If you wish to simply run it locally, just run:
+```bash
+yarn dev
+```
+
 After that, you may spin up the backend by running:
 ```bash
+yarn build
 yarn start
 ```
 
